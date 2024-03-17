@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "orm-migrations"
+version = "0.1.0"
+description = ""
+authors = ["Vlad <vladyslav.pasko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.28"
+alembic = "^1.13.1"
+psycopg2-binary = "^2.9.9"
+faker = "^24.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

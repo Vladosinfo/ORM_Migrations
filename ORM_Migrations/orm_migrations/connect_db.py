@@ -10,7 +10,7 @@ from sqlalchemy.orm import sessionmaker
 # DROP DATABASE university
 # \l    - list of databases
 
-engine = create_engine("postgresql+psycopg2://postgres:post_pass@localhost/university")
+engine = create_engine("postgresql+psycopg2://postgres:post_pass@localhost/university", echo=True)
 
 Session = sessionmaker(bind=engine)
 session = Session()

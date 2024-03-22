@@ -7,10 +7,10 @@ from sqlalchemy.orm import sessionmaker
 # psql -h localhost -U postgres
 # CREATE DATABASE university; 
 # CREATE DATABASE fortest; 
-# DROP DATABASE university
 # \l    - list of databases
 
-engine = create_engine("postgresql+psycopg2://postgres:post_pass@localhost/university", echo=True)
+# engine = create_engine("postgresql+psycopg2://postgres:post_pass@localhost/university", echo=True)
+engine = create_engine("postgresql+psycopg2://postgres:post_pass@localhost/university")
 
 Session = sessionmaker(bind=engine)
 session = Session()

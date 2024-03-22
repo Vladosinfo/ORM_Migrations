@@ -20,6 +20,17 @@ typing-extensions = ">=4"
 tz = ["backports.zoneinfo"]
 
 [[package]]
+name = "argparse"
+version = "1.4.0"
+description = "Python command-line parsing library"
+optional = false
+python-versions = "*"
+files = [
+    {file = "argparse-1.4.0-py2.py3-none-any.whl", hash = "sha256:c31647edb69fd3d465a847ea3157d37bed1f95f19760b11a47aa91c04b666314"},
+    {file = "argparse-1.4.0.tar.gz", hash = "sha256:62b089a55be1d8949cd2bc7e0df0bddb9e028faefc8c32038cc84862aefdd6e4"},
+]
+
+[[package]]
 name = "faker"
 version = "24.2.0"
 description = "Faker is a Python package that generates fake data for you."
@@ -399,4 +410,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "45b736bd7174904088d33fd58e1c5d42b93a7a3215b006157de989a7d34f2662"
+content-hash = "20926cc5467020be1559a189cb1a230afaa3947d5bfd4edcf678d089ef44114f"
